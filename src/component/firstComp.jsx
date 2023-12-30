@@ -49,12 +49,12 @@ const MainOver = () => {
 
         return <div className="row">
                 <div className="col col-lg-6 innerdiv">
-                        <div className="">
+                        <div className="text">
                                 <h4>Fully Responsive Design</h4>
                                 <p>When you use a theme created by Star Bootstrap you know that theme will look great on any device whether it is a phone a tablet or desktop the page will behave remotely</p>
                         </div>
                 </div>
-                <div className="col col-lg-6">
+                <div className="col col-lg-6 p-0">
                         <img className='bgs' src={background1} alt="" />
                 </div>
         </div>
@@ -62,11 +62,11 @@ const MainOver = () => {
 const MainOver2 = () => {
 
         return <div className="row">
-                <div className="col col-lg-6 ">
+                <div className="col col-lg-6 p-0">
                         <img className='bgs' src={background2} alt="" />
                 </div>
                 <div className="col col-lg-6 innerdiv">
-                        <div className="">
+                        <div className="text">
                                 <h4>Fully Responsive Design</h4>
                                 <p>When you use a theme created by Star Bootstrap you know that theme will look great on any device whether it is a phone a tablet or desktop the page will behave remotely</p>
                         </div>
@@ -77,13 +77,14 @@ const MainOver3 = () => {
 
         return <div className="row">
                 <div className="col col-lg-6 innerdiv">
-                        <div className="">
+                        <div className="text">
                                 <h4>Fully Responsive Design</h4>
                                 <p>When you use a theme created by Star Bootstrap you know that theme will look great on any device whether it is a phone a tablet or desktop the page will behave remotely</p>
                         </div>
                 </div>
-                <div className="col col-lg-6">
+                <div className="col col-lg-6 p-0">
                         <img className='bgs' src={background3} alt="" />
+
                 </div>
         </div>
 }
@@ -91,18 +92,24 @@ const MainOver3 = () => {
 const People = () => {
         return <div className="text-center">
                 <h3 className='pb-4'>What people are saying.....</h3>
-                <div className="people d-flex align-items-center justify-content-evenly">
-                        <div className="col">
-                                <img style={{width:"150px"}} className='rounded-pill' src={people1} alt="" />
+                <div className="d-flex align-items-center justify-content-evenly row">
+                        <div className="col text-center people">
+                                <img style={{ width: "150px" }} className='rounded-pill' src={people1} alt="" />
+                                <h3>MArgret E.</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad beatae, deleniti voluptate possimus rerum accusamus?</p>
                         </div>
-                        <div className="col">
-                                <img style={{width:"150px"}} className='rounded-pill' src={people2} alt="" />
+                        <div className="col text-center people">
+                                <img style={{ width: "150px" }} className='rounded-pill' src={people2} alt="" />
+                                <h3>MArgret E.</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad beatae, deleniti voluptate possimus rerum accusamus?</p>
                         </div>
-                        <div className="col">
-                                <img style={{width:"150px"}} className='rounded-pill' src={people3} alt="" />
+                        <div className="col text-center people">
+                                <img style={{ width: "150px" }} className='rounded-pill' src={people3} alt="" />
+                                <h3>MArgret E.</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ad beatae, deleniti voluptate possimus rerum accusamus?</p>
                         </div>
                 </div>
         </div>
 }
 
-export { OceanImg, Head, BootstrapReady, MainOver, MainOver2, MainOver3 ,People };
+export { OceanImg, Head, BootstrapReady, MainOver, MainOver2, MainOver3, People };
